@@ -1,0 +1,23 @@
+[{
+    "name" : "naveen",
+    "age" : "21",
+    "gender":"male",
+    "phn" : 1234567899
+},
+{
+    "name" : "sumanth",
+    "age" : "22",
+    "gender":"male",
+    "phn" : 21345678695
+},{
+    "name" : "vinay",
+    "age" : "2",
+    "gender":"male",
+    "phn" : 98765432178
+},{
+    "name" : "madhu",
+    "age" : "21",
+    "gender":"male",
+    "phn" : 8523697412
+}
+]

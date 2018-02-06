@@ -1,0 +1,13 @@
+ 
+<button (click)="checkbox()">checkbox</button>
+<div *ngFor="let s of a">
+  <p-checkbox value={{s.name}}  [(ngModel)]="selectedcheck" (click)="clickCheck()"></p-checkbox>{{s.name}}
+</div>
+ <!-- <div *ngFor="let a of result">
+
+{{a.name}}
+{{a.age}}
+{{a.gender}}
+{{a.phn}}
+
+</div>   -->

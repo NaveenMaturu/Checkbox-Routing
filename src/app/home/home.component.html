@@ -1,0 +1,40 @@
+
+ <div class="header">
+      <div class='icon'>
+        <span>Icon</span>
+      </div>
+       <div class='title'>
+         <span>Miracle Software Systems</span>
+      </div>
+        <div class='login'>
+          <span>LogIn </span>
+      </div>
+    </div>
+  <div class="container">
+   
+    <div class="box">
+    <app-checkbox></app-checkbox>  
+    </div>
+    <div class="box1">
+      
+      <div *ngFor="let a of a">
+
+{{a.name}}
+{{a.age}}
+{{a.gender}}
+{{a.phn}}
+</div>
+
+<div *ngFor="let buttonName of totalButtons">
+
+<button (click)="clickEvent(event)">{{buttonName}}</button>
+
+</div>
+ 
+</div>  
+
+
+    
+    </div> 
+ 
+  
